@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+    <title>Super Calculadora</title>
+  </head>
+  <body class="bg-light">
+    <div class="container bg-white p-5">
+      <h1 class="center my-5">Super Calculadora</h1>
+
+      <div class="row">
+        <div class="col-md-3">
+          <p>Primeiro Número (A)</p>
+        </div>
+
+        <div class="col-md-3">
+          <p>Segundo Número (B)</p>
+        </div>
+
+      </div>
+
+      <!-- Row Input -->
+      <div class="row">
+        <div class="input-field col-md-3">
+          <input autofocus id="input_A" type="text" value="" />
+        </div>
+
+        <div class="input-field col-md-3">
+          <input autofocus id="input_B" type="text" value="" />
+        </div>
+
+      </div>
+
+      <h2 class="center my-5">Cálculos</h2>
+
+      <div id="calculations">
+        
+        <!-- Row 1 -->
+        <div class="row">
+
+          <div class="col-md-4 input-bottom">
+            <p>Soma (a+b):</p>
+            <div class="h-results">
+              <span id="soma"></span>
+            </div>
+          </div>
+
+            <div class="col-md-4 input-bottom">
+              <p>Subtração 1(a-b):</p>
+              <div class="h-results">
+                <span id="subtração_1"></span>
+              </div>
+            </div>
+
+            <div class="col-md-4 input-bottom">
+              <p>Subtração 2(b-a):</p>
+              <div class="h-results">
+                <span id="subtração_2"></span>
+              </div>
+            </div>
+        </div>
+
+        <!-- Row 2 -->
+        <div class="row mt-5">
+
+          <div class="col-md-4 input-bottom">
+            <p>Multiplicação (a x b):</p>
+            <div class="h-results">
+              <span id="multiplicacao"></span>
+            </div>
+          </div>
+
+          <div class="col-md-4 input-bottom">
+            <p>Divisão 1 (a / b):</p>
+            <div class="h-results">
+              <span id="divisao"></span>
+            </div>
+          </div>
+
+          <div class="col-md-4 input-bottom">
+            <p>Divisão 2 (b / a):</p>
+            <div class="h-results">
+              <span id="divisao_2"></span>
+            </div>
+          </div>
+          
+        </div>
+
+        <!-- Row 3 -->
+        <div class="row mt-5">
+          <div class="col-md-4 input-bottom">
+            <p>Quadrado de a(a²):</p>
+            <div class="h-results">
+              <span id="exponencial_A"></span>
+            </div>
+          </div>
+
+          <div class="col-md-4 input-bottom">
+            <p>Quadrado de b(b²):</p>
+            <div class="h-results">
+              <span id="exponencial_B"></span>
+            </div>
+          </div>
+
+          <div class="col-md-4 input-bottom">
+            <p>Divisores inteiros de a:</p>
+            <div class="h-results">
+              <span id="divisao_inteiros_A"></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 4 -->
+        <div class="row mt-5">
+          <div class="col-md-4 input-bottom">
+            <p>Divisores inteiros de b:</p>
+            <div class="h-results">
+              <span id="divisao_inteiros_B"></span>
+            </div>
+          </div>
+
+          <div class="col-md-4 input-bottom">
+            <p>Fatorial de a(a!):</p>
+            <div class="h-results">
+              <span id="fatorial_A"></span>
+            </div>
+          </div>
+
+          <div class="col-md-4 input-bottom">
+            <p>Fatorial de b(b!):</p>
+            <div class="h-results">
+              <span id="fatorial_B"></span>
+            </div>
+          </div>
+        </div>
+          
+
+
+          
+
+          
+
+          
+
+
+
+       
+      </div>
+     
+      
+    <script defer src="./js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>

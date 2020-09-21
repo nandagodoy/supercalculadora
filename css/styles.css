@@ -1,0 +1,23 @@
+body {
+  font-family:'Montserrat', sans-serif;
+
+h1{
+  font-size:2rem;
+  font-weight:bolder;
+  text-align:center;
+}
+
+h2 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.input-bottom > div {
+  border: none;
+  border-bottom: 1px solid purple;
+  width: 90%;
+}
+
+.h-results {
+  height: 25px;
+}
